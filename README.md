@@ -161,6 +161,35 @@ show ip nat statistics
 └── topology.pkt         # Cisco Packet Tracer project
 ```
 
+## 🔐 Lab Access (Simulated Devices Only)
+
+> ⚠️ **Lab-only credentials:** These credentials are used exclusively for this Cisco Packet Tracer simulation. Do not reuse them on production networks or real devices.
+
+### Device Credentials
+
+| Device | Role | Username | Password | Enable Secret |
+|:---|:---|:---|:---|:---|
+| R1 | Headquarters Router | `netadmin` | `NetLab#2026` | `NetLab#2026` |
+| R2 | Branch Router | `netadmin` | `NetLab#2026` | `NetLab#2026` |
+| R3 | Simulated ISP Router | `netadmin` | `NetLab#2026` | `NetLab#2026` |
+| SW1 | Headquarters Switch 1 | `netadmin` | `NetLab#2026` | `NetLab#2026` |
+| SW2 | Headquarters Switch 2 | `netadmin` | `NetLab#2026` | `NetLab#2026` |
+| SW3 | Branch Switch | `netadmin` | `NetLab#2026` | `NetLab#2026` |
+
+### SSH Access Example
+
+```bash
+ssh -l netadmin 192.168.99.1
+```
+
+When prompted, enter `NetLab#2026`.
+
+**Notes:**
+- SSH access requires SSH to be enabled and network connectivity to the target device.
+- `192.168.99.1` is the VLAN 99 gateway address; verify that it is the intended SSH destination.
+- The `enable secret` is used to enter privileged EXEC mode.
+- Verify that these credentials match the final Packet Tracer configuration.
+
 Keep only files that are actually present in the repository. **Never publish real passwords, private keys, tokens, or other credentials.** If `Passwords/` contains real credentials, remove them from the repository and rotate them before publishing.
 
 ## Open the project
