@@ -38,6 +38,15 @@ The lab models a small multi-site organization. HQ and branch users are separate
 
 > **Topology:** Open [`topology.pkt`](topology.pkt) in Cisco Packet Tracer to inspect the lab. If you add a topology screenshot, save it under `Docs/` and link it here.
 
+## Network Topology
+
+The following diagram illustrates the simulated enterprise network,
+including headquarters, the branch office, and the ISP.
+
+<p align="center">
+  <img src="Docs/topology.png" alt="Enterprise Network Topology" width="100%">
+</p>
+
 ## VLANs and IP addressing
 
 | Location | VLAN | Purpose | Network | Default gateway |
