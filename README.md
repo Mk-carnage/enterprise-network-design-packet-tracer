@@ -39,13 +39,40 @@ The lab models a small multi-site organization. HQ and branch users are separate
 > **Topology:** Open [`topology.pkt`](topology.pkt) in Cisco Packet Tracer to inspect the lab. If you add a topology screenshot, save it under `Docs/` and link it here.
 
 ## Network Topology
+## Verification & Evidence
 
-The following diagram illustrates the simulated enterprise network,
-including headquarters, the branch office, and the ISP.
+The following screenshots document the configuration and testing
+performed in the Cisco Packet Tracer lab.
 
-<p align="center">
-  <img src="Docs/topology.png" alt="Enterprise Network Topology" width="100%">
-</p>
+### 1. Network Topology
+![Enterprise Network Topology](Docs/topology.png)
+
+### 2. VLAN Configuration
+![VLAN Configuration](Docs/02-vlan-configuration.png)
+
+### 3. Trunk Links and EtherChannel
+![Trunk and EtherChannel Verification](Docs/03-trunk-etherchannel.png)
+
+### 4. Inter-VLAN Routing
+![Inter-VLAN Routing](Docs/04-inter-vlan-routing.png)
+
+### 5. DHCP Allocation
+![DHCP Verification](Docs/05-dhcp-allocation.png)
+
+### 6. OSPF Routing
+![OSPF Verification](Docs/06-ospf-routing.png)
+
+### 7. NAT/PAT
+![NAT Verification](Docs/07-nat-internet-connectivity.png)
+
+### 8. ACL Security
+![ACL Verification](Docs/08-acl-security.png)
+
+### 9. ipconfig
+![DHCP](Docs/09-ipconfig.png)
+
+### 10. SSH
+![SSH](Docs/10-SSH.png)
 
 ## VLANs and IP addressing
 
